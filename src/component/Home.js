@@ -69,18 +69,18 @@ const Home = () => {
           </Carousel>
           <div className={Style.mid}>
             <div className={Style.midCap}>
-              <img src={image6} />
+              <img src={image6} alt="Second slide" />
               <div className={Style.capText}>
                 <p>Ball Python</p>
-                <a>Buy Now</a>
+                <a href="/">Buy Now</a>
               </div>
             </div>
             <div className={Style.midCap}>
               <div className={Style.capText}>
                 <p>Check Out </p>
-                <a>Buy Now</a>
+                <a href="/">Buy Now</a>
               </div>
-              <img src={image7} />
+              <img src={image7} alt="Second slide" />
             </div>
           </div>
 
