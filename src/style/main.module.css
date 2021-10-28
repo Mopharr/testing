@@ -1,0 +1,40 @@
+img {
+    width: 100%;
+    height: 70vh;
+}
+.button{
+    background: #30BCED;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none !important;
+    color: #fff !important;
+
+}
+.carousel-caption{
+    margin-bottom: 30px;
+}
+.footerMain{
+    background: #041F1E;
+    color: #fff;
+    padding: 20px 30px;
+}
+.footerTop{
+    display: flex;
+    justify-content: space-between;
+     width: 70%;  
+}
+
+.footerName p{
+    width: 300px;
+}
+.copywrite{
+    text-align: center;
+    justify-content: center;
+
+    display: flex;
+}
+@media (max-width: 765px) {
+    .footerTop{
+        flex-direction: column;
+    }
+}
