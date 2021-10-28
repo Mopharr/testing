@@ -7,7 +7,16 @@
 }
 .mainBody{
     width: 40%;
-
+}
+@media (max-width: 765px) {
+    .mainBody{
+    width: 70%;
+}
+}
+@media (max-width: 425px) {
+    .mainBody{
+    width: 100%;
+}
 }
 .Navmain{
     background: #041F1E;
