@@ -88,6 +88,7 @@ img {
     text-align: center;
     justify-content: center;
     display: flex;
+    align-items: center;
 }
 @media (max-width: 765px) {
     .footerTop{
