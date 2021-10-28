@@ -1,6 +1,67 @@
+.main{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../image/image1.jpeg);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.mainBody{
+    width: 40%;
+
+}
+.Navmain{
+    background: #041F1E;
+    height: 50px;
+    padding:0px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navmain a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
 img {
     width: 100%;
-    height: 70vh;
+    height: 40vh;
+}
+.mid{
+    width: 100%;
+}
+.midCap{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.midCap img{
+    width: 50%;
+    height: 370px;
+}
+.capText{
+    background: #041F1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 370px;
+}
+.capText p{
+    color: #fff;
+    font-size: 42px;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.capText a{
+    background: #F7DBA7;
+    padding: 10px 20px;
+    border-radius: 8px;
 }
 .button{
     background: #30BCED;
@@ -8,10 +69,7 @@ img {
     border-radius: 8px;
     text-decoration: none !important;
     color: #fff !important;
-
-}
-.carousel-caption{
-    margin-bottom: 30px;
+    margin: 50px;
 }
 .footerMain{
     background: #041F1E;
@@ -20,8 +78,7 @@ img {
 }
 .footerTop{
     display: flex;
-    justify-content: space-between;
-     width: 70%;  
+    justify-content: space-between; 
 }
 
 .footerName p{
@@ -30,7 +87,6 @@ img {
 .copywrite{
     text-align: center;
     justify-content: center;
-
     display: flex;
 }
 @media (max-width: 765px) {
